@@ -34,8 +34,14 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Program:**
 
-Program to implement the given logic function and to verify its operations in quartus using Verilog programming. // Verilog model:Circuit with boolean expressions module ex02 (E,F,A,B,C,D); input A, B, C, D; output E,F; assign E = A || (B && C) || ((!B) && D);
-assign F=((!B) && C) || ( B && (!C) && (!D)); endmodule
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming. // Verilog model:Circuit with boolean expressions 
+```
+module ex02 (E,F,A,B,C,D);
+input A, B, C, D; output E,F;
+assign E = A || (B && C) || ((!B) && D);
+assign F=((!B) && C) || ( B && (!C) && (!D));
+endmodule
+```
 
 Developed by: SARANYA V
 
