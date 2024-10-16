@@ -42,6 +42,7 @@ Developed by: SARANYA V
 RegisterNumber: 212223040188
 
 **RTL realization**
+
 ![Screenshot 2024-10-16 062253](https://github.com/user-attachments/assets/a9c535f6-8795-46a2-8abe-5a329b034de2)
 
 **Output:**
