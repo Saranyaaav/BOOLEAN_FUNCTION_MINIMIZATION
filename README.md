@@ -17,7 +17,6 @@ Hardware – PCs, Cyclone II , USB flasher
 **Theory**
 
 **Logic Diagram**
-![Screenshot 2024-10-16 062030](https://github.com/user-attachments/assets/e9dcc15b-74e6-4600-8190-9d907dc42424)
 
 **Procedure**
 
@@ -69,7 +68,7 @@ RegisterNumber: 212223040188
 
 **Timing Diagram**
 
-
+![Screenshot 2024-10-20 185513](https://github.com/user-attachments/assets/5d81e310-dec4-4dbf-a337-6fa6f1a71112)
 
 **Result:**
 
