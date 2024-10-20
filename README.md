@@ -61,7 +61,7 @@ RegisterNumber: 212223040188
 
 **RTL realization**
 
-
+![Screenshot 2024-10-20 182632](https://github.com/user-attachments/assets/789551e9-859c-43d7-9fde-c33307d293f2)
 
 **Output:**
 
