@@ -36,7 +36,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming. // Verilog model:Circuit with boolean expressions 
 ```
-module verilog1(a,b,c,d,w,x,y,z,F1,F2);
+module b1(a,b,c,d,w,x,y,z,F1,F2);
 input a,b,c,d,w,x,y,z;
 output F1,F2;
 wire A1,A2,A3,A4,A5,B1,B2,B3,B4,B5;
@@ -61,7 +61,7 @@ RegisterNumber: 212223040188
 
 **RTL realization**
 
-![Screenshot 2024-10-16 062253](https://github.com/user-attachments/assets/a9c535f6-8795-46a2-8abe-5a329b034de2)
+
 
 **Output:**
 
@@ -69,7 +69,7 @@ RegisterNumber: 212223040188
 
 **Timing Diagram**
 
-![Screenshot 2024-10-16 062442](https://github.com/user-attachments/assets/ddc7c5e4-2da6-42d3-8191-eda14ae32a42)
+
 
 **Result:**
 
