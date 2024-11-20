@@ -14,8 +14,6 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Software – Quartus prime**
 
-**Theory**
-
 **Logic Diagram**
 ![Screenshot 2024-10-20 191319](https://github.com/user-attachments/assets/e909df5c-f7fe-4005-b287-e2e4116fba43)
 
@@ -34,34 +32,28 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Program:**
 
-Program to implement the given logic function and to verify its operations in quartus using Verilog programming. // Verilog model:Circuit with boolean expressions 
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 ```
-module b1(a,b,c,d,w,x,y,z,F1,F2);
-input a,b,c,d,w,x,y,z;
-output F1,F2;
-wire A1,A2,A3,A4,A5,B1,B2,B3,B4,B5;
-assign A1= (~a&(~b)&(~c)&(~d));
-assign A2= (a&c&(~d));
-assign A3= ((~b)&c&(~d));
-assign A4= (~a&b&c&d);
-assign A5= (b&(~c)&d);
-assign F1= A1|A2|A3|A4|A5;
-assign B1= (x&(~y)&z);
-assign B2= (~x&(~y)&z);
-assign B3= (~w&x&y);
-assign B4= (w&(~x)&y);
-assign B5= (w&y&z);
-assign F2= B1|B2|B3|B4|B5;
+module exp21(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=((~b & ~d)|( ~a & b & d )|(a & b & ~c));
+endmodule
+```
+```
+module exp22(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2=((~y & z)|( w & y )|(x & y));
 endmodule
 ```
 
-Developed by: SARANYA V
-
-RegisterNumber: 212223040188
+Developed by: SARANYA V , RegisterNumber: 212223040188
 
 **RTL realization**
 
-![Screenshot 2024-10-20 182632](https://github.com/user-attachments/assets/789551e9-859c-43d7-9fde-c33307d293f2)
+![Screenshot 2024-11-20 111053](https://github.com/user-attachments/assets/29808b0f-0b4d-4fd9-b388-42f899db98af)
+
 
 **Output:**
 
