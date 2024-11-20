@@ -15,7 +15,7 @@ Hardware – PCs, Cyclone II , USB flasher
 **Software – Quartus prime**
 
 **Logic Diagram**
-![Screenshot 2024-10-20 191319](https://github.com/user-attachments/assets/e909df5c-f7fe-4005-b287-e2e4116fba43)
+
 
 **Procedure**
 
@@ -33,6 +33,8 @@ Hardware – PCs, Cyclone II , USB flasher
 **Program:**
 
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+
+Developed by: SARANYA V , RegisterNumber: 212223040188
 ```
 module exp21(a,b,c,d,f1);
 input a,b,c,d;
@@ -48,20 +50,14 @@ assign f2=((~y & z)|( w & y )|(x & y));
 endmodule
 ```
 
-Developed by: SARANYA V , RegisterNumber: 212223040188
-
 **RTL realization**
 
 ![Screenshot 2024-11-20 111053](https://github.com/user-attachments/assets/29808b0f-0b4d-4fd9-b388-42f899db98af)
+![Screenshot 2024-11-20 114357](https://github.com/user-attachments/assets/372405e1-e08e-4834-9416-9edfdc5d4c26)
 
-
-**Output:**
-
-**RTL**
 
 **Timing Diagram**
 
-![Screenshot 2024-10-20 185513](https://github.com/user-attachments/assets/5d81e310-dec4-4dbf-a337-6fa6f1a71112)
 
 **Result:**
 
