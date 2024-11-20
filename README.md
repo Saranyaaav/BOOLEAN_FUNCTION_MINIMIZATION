@@ -57,6 +57,8 @@ endmodule
 
 
 **Timing Diagram**
+![image](https://github.com/user-attachments/assets/5ebba3c8-3b11-4d09-ad4a-9afeb66c8200)
+
 ![Screenshot 2024-11-20 114913](https://github.com/user-attachments/assets/232cb1b0-c34d-42d4-a426-c61bffa598d4)
 
 
