@@ -27,6 +27,8 @@ Software – Quartus prime
 
 5.	For different input combinations generate the timing diagram.
 
+![Screenshot 2024-11-21 184724](https://github.com/user-attachments/assets/64e44551-e70f-4a6d-968a-7e997ec21d43)
+
 
 **Program:**
 
@@ -51,6 +53,14 @@ output f2;
 assign f2=((~y & z)|( w & y )|(x & y));
 endmodule
 ```
+
+**Truth Table**
+
+F1
+![Screenshot 2024-11-21 184412](https://github.com/user-attachments/assets/492b2b53-943f-408f-8e5e-602b93dc2c4d)
+
+F2
+![Screenshot 2024-11-21 184559](https://github.com/user-attachments/assets/b46348b2-58bb-4e13-8a8b-f9b8673587c6)
 
 **RTL realization**
 
